@@ -4,7 +4,7 @@ import Header from '../components/Header'
 
 function App() {
   return (
-    <div className="cointainer">
+    <div className="container">
       <Header />
       {travelObj.map(item => {
         return <Travel {...item} />
